@@ -1,0 +1,20 @@
+{
+  "name": "atkinovolia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "npm run build:css",
+    "build:css": "tailwindcss -m -i ./src/input.css -o ./dist/output.css",
+    "dev": "npm run dev:css",
+    "dev:css": "tailwindcss -w -i  ./src/input.css -o ./dist/output.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

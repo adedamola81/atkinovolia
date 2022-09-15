@@ -8,6 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "npm run build:css",
     "build": "npm run build:css",
     "build:css": "tailwindcss -m -i ./src/input.css -o ./dist/output.css",
     "dev": "npm run dev:css",
